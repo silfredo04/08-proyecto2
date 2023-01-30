@@ -15,5 +15,4 @@ export const trabajos = [
         'categorias':'Desarrollo web',
         'descripcion':'Ejemplo 2'
     },
-
 ];

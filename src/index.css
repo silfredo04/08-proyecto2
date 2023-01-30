@@ -112,7 +112,7 @@ code {
   font-weight: lighter;
 }
  
-.home a{
+.home .title a{
   padding: 7px;
   border-radius: 5px;
   color: white;
@@ -121,7 +121,20 @@ code {
   transition: all 300ms;
 }
 
-.home a:hover{
+.page a{
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  background-color: orangered;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+.home .title a:hover{
+  background-color: black;
+}
+
+.page a:hover{
   background-color: black;
 }
 
@@ -249,5 +262,11 @@ input[type="submit"]:hover,button:hover{
   color: gray;
   border-top: 1px solid #ddd;
   padding-top:15px;
+}
+
+.page-work .mask{
+  height: 300px;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px #ddd;
 }
 
