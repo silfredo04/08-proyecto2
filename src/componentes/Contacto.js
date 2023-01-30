@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Contacto = () => {
   return (
-    <div className='page'>
+    <div className='page pages'>
       <h1 className='heading'>Contacto</h1>
 
       <form className='contacto' action="mailto:silfredoantonio1991@hotmail.com">
